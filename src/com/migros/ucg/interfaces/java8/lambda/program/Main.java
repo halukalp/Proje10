@@ -33,21 +33,17 @@ public class Main
 
 
         // yukarıdaki kullanım yerine, bu kullanım
-        calistir(new Arayabilir()
+        calistir(aranacakNumara ->
                 {
-                     @Override
-                     public void aramaYap(String aranacakNumara)
-                     {
-                         if(aranacakNumara.startsWith("444"))
-                         {
-                             System.out.println("Aranacak numara hatalı.");
-                         }
-                         else
-                         {
-                             System.out.println("Aranacak numara: " + aranacakNumara);
-                         }
-                     }
-                 }
+                    if(aranacakNumara.startsWith("444"))
+                    {
+                        System.out.println("Aranacak numara hatalı.");
+                    }
+                    else
+                    {
+                        System.out.println("Aranacak numara: " + aranacakNumara);
+                    }
+                }
                 ,
                 "0555 444 33 22");
     }
