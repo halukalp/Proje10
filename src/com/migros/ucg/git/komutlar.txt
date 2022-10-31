@@ -1,0 +1,18 @@
+başlangıçta uygulanan komutlar:
+( init -> add -> commit-> relate -> push ) veya ( init -> add -> relate-> commit -> push )
+git init
+git config user.name "someone"
+git config user.email "someone@someplace.com"
+git add *
+git commit -m "initial commit"
+git remote add origin https://github.com/halukalp/SpringBootSGManagement
+git push origin master
+
+
+projedeki bir güncelleme sonrası uygulanan komutlar:
+( init -> add -> commit -> push )
+git init
+git add *
+git commit -m "initial commit"
+git push origin master
+
