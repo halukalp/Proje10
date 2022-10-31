@@ -13,23 +13,23 @@ public class Main
             }
         };
 
-//        calistir(new Arayabilir()
-//                 {
-//                     @Override
-//                     public void aramaYap(String aranacakNumara)
-//                     {
-//                         if(aranacakNumara.startsWith("444"))
-//                         {
-//                             System.out.println("Aranacak numara hatalı.");
-//                         }
-//                         else
-//                         {
-//                             System.out.println("Aranacak numara: " + aranacakNumara);
-//                         }
-//                     }
-//                 }
-//                ,
-//                "0555 444 33 22");
+        calistir(new Arayabilir()
+                 {
+                     @Override
+                     public void aramaYap(String aranacakNumara)
+                     {
+                         if(aranacakNumara.startsWith("444"))
+                         {
+                             System.out.println("Aranacak numara hatalı.");
+                         }
+                         else
+                         {
+                             System.out.println("Aranacak numara: " + aranacakNumara);
+                         }
+                     }
+                 }
+                ,
+                "0555 444 33 22");
 
 
         // yukarıdaki kullanım yerine, bu kullanım
